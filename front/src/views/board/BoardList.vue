@@ -1,6 +1,12 @@
 <template>
   <div>
-    <b-table striped hover :items="items" :fields="fields"></b-table>
+    <b-table
+      striped
+      hover
+      :items="items"
+      :fields="fields"
+      @row-clicked="rowClick"
+    ></b-table>
   </div>
 </template>
 
@@ -45,6 +51,13 @@ export default {
       ],
       items: items,
     };
+  },
+  methods: {
+    rowClick(item) {
+      this.$router.push({
+        path: `/detail/${item.id}`,
+      });
+    },
   },
 };
 </script>
