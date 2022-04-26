@@ -3,9 +3,9 @@
     <b-navbar-brand href="/">Simple_Board</b-navbar-brand>
 
     <b-dropdown size="lg" text="User" class="m-2" right>
-      <b-dropdown-item-button>Action</b-dropdown-item-button>
-      <b-dropdown-item-button>Another action</b-dropdown-item-button>
-      <b-dropdown-item-button>Something else here</b-dropdown-item-button>
+      <b-dropdown-item-button>로그인</b-dropdown-item-button>
+      <b-dropdown-item-button>로그아웃</b-dropdown-item-button>
+      <b-dropdown-item-button>글쓰기</b-dropdown-item-button>
     </b-dropdown>
   </b-navbar>
 </template>
