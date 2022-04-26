@@ -37,7 +37,7 @@ export default {
       id: 3,
       member_id: 2,
       title: "생일 축하해주신 여러분 감사합니다!",
-      context: "^^",
+      content: "^^",
       date: "2019-03-29 13:11:42",
       view_count: 0,
     },
