@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
+    <L_Header />
+    <div id="content" class="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
+<script>
+import L_Header from "@/components/layout/Header.vue";
+
+export default {
+  name: "App",
+  components: {
+    L_Header,
+  },
+};
+</script>
 
 <style>
 #app {
