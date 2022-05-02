@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <b-table
-      striped
-      hover
-      :items="items"
-      :fields="fields"
-      @row-clicked="rowClick"
-    ></b-table>
+  <div class="container pt-lg-md">
+    <div>
+      <b-table
+        striped
+        hover
+        :items="items"
+        :fields="fields"
+        @row-clicked="rowClick"
+      ></b-table>
+    </div>
   </div>
 </template>
 
